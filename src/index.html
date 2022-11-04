@@ -21,7 +21,7 @@
 
         <!-- Contenedor del formulario -->
         <div class="w-full sm:w-1/2 pl-6 pr-6 pt-12 pb-12">
-          <form id="formulario">
+          <form id="form">
             <h1 class="text-center text-6xl text-slate-800 font-bold mt-8 mb-8">
               VoiceMax
             </h1>
@@ -30,7 +30,7 @@
                 Ingrese su información de cuenta para obtener acceso al sistema
               </h2>
 
-              <!-- Mensaje de validación con JaavaScript -->
+              <!-- Mensaje de validación con JavaScript -->
               <div
                 class="text-center text-2xl text-white font-bold mb-16 rounded-md pt-2 pb-2"
                 id="message"
@@ -40,14 +40,15 @@
               <input
                 class="w-full sm:w-9/12 px-4 py-2 bg-gray-50 text-gray-700 block text-2xl m-auto mb-6 focus:outline-none"
                 type="email"
-                id="usuario"
+                id="user"
                 title="Por favor ingrese un correo válido"
                 placeholder="Correo electrónico"
               />
               <input
                 class="w-full sm:w-9/12 px-4 py-2 bg-gray-50 text-gray-700 block text-2xl m-auto mb-6 focus:outline-none"
                 type="password"
-                id="contraseña"
+                id="password"
+                minlength="8"
                 title="Por favor digite su contraseña"
                 placeholder="Contraseña"
               />
