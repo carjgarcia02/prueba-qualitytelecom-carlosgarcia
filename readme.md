@@ -14,6 +14,12 @@ Basta con ir al archivo index.html dentro de la carpeta src y abrirlo con Google
 
 Otra forma es abrir el mismo archivo desde su editor de código.
 
+## Cómo llenar los campos del formulario:
+
+Correo electrónico: Ingrese una dirección de correo con formato válido. Ej: ejemplo@gmail.com
+
+Contraseña: debe contener al menos una letra mayúscula, una minúscula, un número y un caracter especial (longitud mínima de 8 caracteres).
+
 ## Desafíos encontrados y soluciones:
 
 a) Validaciones de los datos con JavaScript: esto implicaba utilizar expresiones regulares, con las cuales no estaba familiarizado. También la lógica de los condicionales fue algo tediosa al principio. 
