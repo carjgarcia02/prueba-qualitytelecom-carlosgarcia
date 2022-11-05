@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Información de usuarios</title>
+    <link href="../dist/output.css" rel="stylesheet" />
+  </head>
+  <body class="justify-center h-screen">
+    <main class="flex flex-col container justify-center relative">
+        <span class="text-lg font-bold absolute top-8 left-16"><a href="index.html">Volver</a></span>
+        <h1 class="text-4xl text-center font-bold mt-8">Usuarios registrados.</h1>
+      
+      <table
+        class="table-auto border border-separate border-slate-500 justify-center mt-14 mx-8"
+      >
+        <thead class="text-3xl bg-gray-500 text-white">
+          <tr>
+            <th class="w-1/4 border border-slate-600">Id</th>
+            <th class="w-1/4 border border-slate-600">Name</th>
+            <th class="w-1/4 border border-slate-600">Email</th>
+            <th class="w-1/4 border border-slate-600">Website</th>
+          </tr>
+        </thead>
+        <tbody class="bg-slate-100 text-amber-900 text-lg" id="table_body"></tbody>
+      </table>
+    </main>
+
+    <script src="./mostrarUsuarios.js"></script>
+  </body>
+</html>
